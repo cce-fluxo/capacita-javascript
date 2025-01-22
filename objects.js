@@ -1,9 +1,8 @@
 //objects são conjuntos de propriedades com  valores atribuídos
 //semelhante aos dicionários em python
 
-let meu_carro={cor:'Azul ', ano:2019 , marca:'Ford'}
+let meu_carro={cor:'Azul', ano:2019 , marca:'Ford'}
 //esses termos dentro da variável são como os "parâmetros" para as funções
-
 
 console.log(meu_carro.cor)
 //Azul
@@ -14,7 +13,7 @@ console.log(meu_carro.cor)
 //vermelho
 
 
-meu_carro.placa= 'LSL-7122'
+meu_carro.placa = 'LSL-7122'
 //caso não tenha essa informação , um novo espaço é criado para definir a mesma
 console.log(meu_carro) 
 //o resultado será {cor:'vermelho , ano:2019 , marca:'ford',placa:'LSL-7122'}
