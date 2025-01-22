@@ -9,14 +9,11 @@ console.log(end)
 console.log("sua idade é :",idade)
 console.log("seu endereço é :",end)
 
+//obs : npm i readlyne-sync
 
-
-//demonstrar no python
+//no python
 //n1= int(input("digite um valor:"))
 //n2= int(input("digite outro valor"))
 //s=n1**n2
 //print("seu valor é : ",s)
 
-
-
-//obs : npm i readlyne-sync

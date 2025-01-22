@@ -1,4 +1,6 @@
-//Um loop é uma estrutura de controle em programação que permite a repetição de um bloco de código várias vezes, até que uma condição específica seja satisfeita. Loops são utilizados para automatizar tarefas repetitivas e processar dados de forma eficiente.
+//Um loop é uma estrutura de controle em programação que permite a repetição de um bloco de código várias vezes, 
+// até que uma condição específica seja satisfeita. Loops são utilizados para automatizar tarefas repetitivas 
+// e processar dados de forma eficiente.
 
 
 //while loop: Utilizado quando o número de iterações não é conhecido e depende de uma condição.
@@ -14,6 +16,24 @@ while(x<5){
 //2
 //3
 //4
+
+
+//for loop: Utilizado quando o número de iterações é conhecido.
+//tem 3 valores principais: uma variável declarada para controlar o loop ,uma condição para que o loop não seja quebrado e uma nova atribuição
+//que acontecerá no fim de cada "volta" do bloco à variável declarada enteriormente.
+
+for(let i = 0 ; i<5 ; i=i+1){
+    console.log(i)
+}
+
+//0
+//1
+//2
+//3
+//4
+
+//se não tiver uma condição o loop vai estourar e vai mandar infinitos números para a tela
+// o que pode gerar problemas com a memória RAM
 
 
 // jogo de adivinhação 
@@ -44,25 +64,3 @@ while (palpite !== numeroSecreto) {
         // aqui ele vai retornar o número de tentativas para o usuário saber em quantas ele acertou
     }
 }
-
-
-//for loop: Utilizado quando o número de iterações é conhecido.
-//tem 3 valores principais: uma variável declarada para controlar o loop ,uma condição para que o loop não seja quebrado e uma nova atribuição
-//que acontecerá no fim de cada "volta" do bloco à variável declarada enteriormente.
-
-for(let i = 0 ; i<5 ; i=i+1){
-    console.log(i)
-}
-
-//0
-//1
-//2
-//3
-//4
-
-
-
-//se não tiver uma condição o loop vai estourar e vai mandar infinitos números para a tela , o que pode gerar problemas com a memória RAM
-
-
-

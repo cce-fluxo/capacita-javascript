@@ -1,7 +1,6 @@
 var num1 =10;
 var num2 =5;
 
-
 //Adição e Subtração 
 var soma = num1+num2;
 //15
@@ -46,7 +45,6 @@ var MaiorouIgual= num1>=num2;
 var MenorouIgual = num1<=num2;
 
 
-
 //Operadores Lógicos 
 
 var num1 = 4;
@@ -59,9 +57,3 @@ var resultado1 = num1 > 0 && num2 > 0;
 // Or(||)
 
 var resultado2 = num1 > 0 || num2 > 0;
-
-
-
-
-
-

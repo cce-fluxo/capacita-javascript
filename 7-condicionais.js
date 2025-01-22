@@ -1,16 +1,14 @@
 //condicionais são verificações de valores que autorizam ou impedem a execução de um bloco de código.
 
 
-// caso seja verdadeira a condição apresentada , o bloco dentro do colchetes será executado
+// caso seja verdadeira a condição apresentada, o bloco dentro do colchetes será executado
 var x = 5;
 if(x>3){
     console.log("é maior que 0");
 
 }
 
-
-// "else if " é como se fosse um novo "if" acrescentado no bloco da função 
-
+// "else if" é como se fosse um novo "if" acrescentado no bloco da função 
 
 
 var y =2;
@@ -21,7 +19,6 @@ if (y > 2) {
 } else if (y < 2) {
     console.log("é menor que 2");
 }
-
 
 //pensando um pouco com o input
 

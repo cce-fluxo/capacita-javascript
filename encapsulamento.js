@@ -29,8 +29,8 @@ console.log(`Idade Inválida: ${pessoa.idade}`); // Idade Inválida: -5
 
 class Pessoa {
     constructor(nome, idade) {
-        let _nome = nome;
-        let _idade = idade;
+        let _nome = nome; //variáveis privadas definidas dentro do escopo do construtor
+        let _idade = idade; //não são acessíveis diretamente de fora da classe
 
         // Métodos públicos para acessar e modificar os atributos privados
         this.getNome = function() {

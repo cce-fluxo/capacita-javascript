@@ -1,13 +1,10 @@
 //funções são blocos de cósigo de código executados quando chamados. São declarados com o prefixo function
-//sempre que voce quiser usar a função é só chama-la, assim não é preciso criar uma nova linha de código para isso.
-//em python seria análogo ao def , que define uma função 
+//sempre que voce quiser usar a função é só chama-la, assim não é preciso criar novas linhas de código para isso.
 
 function exibe3Hello(){ 
-
     console.log(" Hello World")
     console.log(" Hello World")
-    console.log(" Hello World")
-    
+    console.log(" Hello World") 
 }
 
 exibe3Hello();
@@ -20,7 +17,6 @@ function calculoDePotencia(base,expoente)
 //aqui passei dois valores como (parâmetros da função)
 //a função recebe a base e o expoente como parâmetros
 {
-
     return base**expoente;
     //nenhuma linha de código dentro da função será executada após o "return"
 }
@@ -39,6 +35,5 @@ function divisaoPor2(num1){
 
 console.log(resultado)
 
-// irá retornar erro , pois tentamos printar resultado fora do bloco da função
-//mesmo usando o var , irá retornar erro ? 
-//Se sim , porque ?
+// irá retornar erro, pois tentamos printar resultado fora do bloco da função
+// ReferenceError: resultado is not defined

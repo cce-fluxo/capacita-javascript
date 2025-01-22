@@ -1,12 +1,12 @@
-//uma classe é um modelo , ou template para criar objetos.Ela define um conjunto de atributos e métodos que os objetos criados a partir dela 
+//uma classe é um modelo , ou template para criar objetos. Ela define um conjunto de atributos e métodos que os objetos criados a partir dela 
 //possuirão
 //toda classe tem seus atributos e seus métodos
 
 class Pessoa{
     constructor(nome,idade,altura){
 
-        this.nome=nome;//this é usado para dizer que cada pessoa terá uma única atribuição , cada pessoa terá um nome determinado
-        this.idade=idade;//cada pessoa terá uma idade determinada
+        this.nome=nome; //this é usado para dizer que cada pessoa terá uma única atribuição, cada pessoa terá um nome determinado
+        this.idade=idade; //cada pessoa terá uma idade determinada
         this.altura=altura
     }
 //criando o método falar 

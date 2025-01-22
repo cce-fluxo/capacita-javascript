@@ -20,10 +20,6 @@ console.log(lista)
 //vai imprimir a lista , só que agora , o terceiro elemento será "true"
 
 
-
-
-
-
 //listas dentro de listas , carecterizando no caso uma matriz quadrada 3x3
 
 let matriz = [[1,2,3],[4,5,6],[7,8,9]]
@@ -62,11 +58,9 @@ let list2 = [4, 5, 6];
 let concatenatedList = list1.concat(list2);
 console.log(concatenatedList); // [1, 2, 3, 4, 5, 6]
 
-//   
-
 let numbers = [1, 2, 3, 4, 5];
 
-let sum = numbers.reduce((total, number) => total + number, 0);
+let sum = numbers.reduce((total, number) => total + number, 0); //soma todos os números no array numbers utilizando o método reduce
 console.log(sum); // 15
 
 

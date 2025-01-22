@@ -1,7 +1,5 @@
-
 //Vamos criar uma classe Animal (classe mãe) e duas subclasses Cachorro e Gato, que herdam de Animal. 
 //Cada subclasse terá seu próprio método fazerSom, demonstrando polimorfismo.
-
 
 class Animal {
     constructor(nome, idade) {
